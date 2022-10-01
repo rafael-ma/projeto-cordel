@@ -24,7 +24,8 @@ a {
 }
 
 main p {
-    padding: 1em 0;
+    padding: 1em 3em;
+    font-size: 1.3em
 }
 
 /* Fonts */
@@ -41,6 +42,7 @@ p {
 }
 
 header h1 {
+    font-size: 3.5em;
     letter-spacing: 3px;
     font-variant: small-caps;
 }
@@ -54,7 +56,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 32px;
+    padding: 52px;
 }
 
 /* Sections */
@@ -75,7 +77,6 @@ section {
 .imagem p {
     display: inline-block;
     color: white;
-    padding: 10px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
