@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* Variables */
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Noto Serif', serif;
+    --font3: 'Abyssinica SIL', serif;
+}
+
+/* General atributes */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%vh;
+    background: rgb(215, 215, 215);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main p {
+    padding: 1em 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+html, body {
+    font-family: var(--font1);
+}
+
+p {
+    font-family: var(--font2);
+    font-weight: 500;
+}
+
+header h1 {
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+header h1, p {
+    font-family: var(--font3);
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
+
+/* Sections */
+section {
+    padding: 8vh 30px;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.2)
+}
+
+.imagem p {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Backgrounds */
+#img1 {
+    background: url(./imagens/background001.jpg) right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img2 {
+    background: url(./imagens/background002.jpg) right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Animation */
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
